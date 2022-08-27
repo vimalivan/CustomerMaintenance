@@ -1,6 +1,5 @@
 package com.vimalrajravi.rwrapplication;
 
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -20,7 +19,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -83,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
 class CusstomVIewHolder extends RecyclerView.ViewHolder{
     TextView despview;
     TextView listview;
@@ -92,6 +91,5 @@ class CusstomVIewHolder extends RecyclerView.ViewHolder{
         listview=itemView.findViewById(R.id.lis_view);
 
     }
-
 
 }

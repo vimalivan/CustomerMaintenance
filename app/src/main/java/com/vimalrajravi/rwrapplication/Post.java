@@ -5,6 +5,7 @@ public class Post {
     public int id;
     public String title;
     public String body;
+
     public int getUserId() {
         return userId;
     }
@@ -47,4 +48,3 @@ public class Post {
                 '}';
     }
 }
-
