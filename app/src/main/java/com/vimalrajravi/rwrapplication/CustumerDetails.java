@@ -1,6 +1,6 @@
 package com.vimalrajravi.rwrapplication;
 
-public class Post {
+public class CustumerDetails {
     public int userId;
     public int id;
     public String title;

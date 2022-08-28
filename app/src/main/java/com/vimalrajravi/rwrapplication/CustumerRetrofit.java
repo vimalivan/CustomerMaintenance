@@ -3,7 +3,7 @@ package com.vimalrajravi.rwrapplication;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class GetRetrofit {
+public class CustumerRetrofit {
     private static Retrofit retrofit;
     private static final String BASE_URL  = "https://jsonplaceholder.typicode.com/";
 
